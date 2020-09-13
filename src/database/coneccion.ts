@@ -4,7 +4,7 @@ import { Pool } from 'pg';
 export const coneccion = new Pool({
     user:'postgres',
     host:'localhost',
-    password:'',
+    password:'root',
     database:'pracica',
     port: 5432
 })
